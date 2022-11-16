@@ -36,13 +36,13 @@ def evaluate_vectors(W, vocab):
     """Evaluate the trained word vectors on a variety of tasks"""
 
     filenames = [
-        'capital-common-countries.txt', 'capital-world.txt', 'currency.txt',
-        'city-in-state.txt', 'family.txt', 'gram1-adjective-to-adverb.txt',
-        'gram2-opposite.txt', 'gram3-comparative.txt', 'gram4-superlative.txt',
-        'gram5-present-participle.txt', 'gram6-nationality-adjective.txt',
-        'gram7-past-tense.txt', 'gram8-plural.txt', 'gram9-plural-verbs.txt',
+        'capital-common-countries-bn.txt', 'capital-world-bn.txt', 'currency-bn.txt',
+        'city-in-state-bn.txt', 'family-bn.txt', 'gram1-adjective-to-adverb-bn.txt',
+        'gram2-opposite-bn.txt', 'gram3-comparative-bn.txt', 'gram4-superlative-bn.txt',
+        'gram5-present-participle-bn.txt', 'gram6-nationality-adjective-bn.txt',
+        'gram7-past-tense-bn.txt', 'gram8-plural-bn.txt', 'gram9-plural-verbs-bn.txt',
         ]
-    prefix = './eval/question-data/'
+    prefix = './eval/question-data-bangla'
 
     # to avoid memory overflow, could be increased/decreased
     # depending on system and vocab size
