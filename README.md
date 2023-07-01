@@ -34,5 +34,20 @@ If the web datasets above don't match the semantics of your end use case, you ca
 
 The demo.sh script downloads a small corpus, consisting of the first 100M characters of Wikipedia. It collects unigram counts, constructs and shuffles cooccurrence data, and trains a simple version of the GloVe model. It also runs a word analogy evaluation script in python to verify word vector quality. More details about training on your own corpus can be found by reading [demo.sh](https://github.com/stanfordnlp/GloVe/blob/master/demo.sh) or the [src/README.md](https://github.com/stanfordnlp/GloVe/tree/master/src)
 
+
+## A comprehensive guide line for train word vectors in other languages, namely 'Bengali'.
+
+### eval
+  1. Make sure that you have changed the question data with your own language from here:Glove/eval/question-    
+     data/
+  2. Changing the file names requires changes to matlab, octave, and python/evaluate.py files
+ 
+### demo.sh
+  1. Change the corpus name with your own 
+  2. Remove all the codes started from second "if" if you don't want to evaluate your glove model right after 
+     the trainig process.
+
+
+
 ### License
 All work contained in this package is licensed under the Apache License, Version 2.0. See the include LICENSE file.
