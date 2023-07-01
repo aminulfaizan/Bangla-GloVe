@@ -38,12 +38,14 @@ The demo.sh script downloads a small corpus, consisting of the first 100M charac
 ## A comprehensive guide line for train word vectors in other languages, namely 'Bengali'.
 
 ### eval
-  1. Make sure that you have changed the question data with your own language (eval/question-data/)
-  3. Changing the file names requires changes to matlab, octave, and python/evaluate.py files
+  1. Make sure that you have changed the question data with your own language <eval/question-data/>
+  2. Changing the file names requires changes to matlab, octave, and python/evaluate.py files
  
 ### demo.sh
-  1. Change the corpus name with your own 
-  2. Remove all the codes started from second "if" if you don't want to evaluate your glove model right after 
+  1. Ignore the 1st condition since you want to use your own corpus.txt file
+  2. Change the corpus name with your own
+  3. Keep your corpus.txt file inside the same directory of demo.sh file
+  4. Remove all the codes started from 3rd "if" if you don't want to evaluate your glove model right after 
      the trainig process.
 
 
