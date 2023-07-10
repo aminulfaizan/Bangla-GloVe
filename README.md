@@ -38,7 +38,7 @@ The demo.sh script downloads a small corpus, consisting of the first 100M charac
 ## A comprehensive guide line for train word vectors in other languages, namely 'Bengali'.
 
 ### eval
-  1. Make sure that you have changed the question data with your own language <eval/question-data/>
+  1. Make sure that you have changed the questions data with your own language <eval/question-data/>
   2. Changing the file names requires changes to matlab, octave, and python/evaluate.py files
  
 ### demo.sh
